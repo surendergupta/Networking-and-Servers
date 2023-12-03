@@ -12,7 +12,9 @@ Assignment on Networking and Servers
 6. sudo chown -R $USER:$USER /var/www/awesomeweb/html 		(Ownership permission set to user )
 7. sudo chmod -R 755 /var/www			(www folder give read write and execute permission)
 8. nano /var/www/awesomeweb/html/index.html	(create the index.html file)
-9. create basic structure of website home page and save it 
+9. create basic structure of website home page and save it
+'''
+'''
 Index.html file
 <html>
 <head>
@@ -22,6 +24,8 @@ Index.html file
 <h1>Welcome to awesomeweb best template website portal.</h1>
 </body>
 </html>
+'''
+'''
 10. sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/awesomeweb
 11. sudo nano /etc/nginx/sites-available/awesomeweb
 	11.1 change root path with /var/www/awesomeweb/html
@@ -37,9 +41,9 @@ Index.html file
 	16.1 update ip_address and domain_name like 127.0.0.1 awesomeweb
 	16.2 file save and close it
 17. Open browser and type: http://awesomeweb
-
+'''
 **Question 2:**
-
+'''
 1. subdomainlist.txt
 2. domaincheck.py
 3. setup crontab -e
