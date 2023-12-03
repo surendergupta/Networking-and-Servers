@@ -1,7 +1,7 @@
 # Networking-and-Servers
 Assignment on Networking and Servers
 **Question 1:**
-
+'''
 1. First Install the virtual box and instal ubuntu on it.
 2. After installation of ubuntu to install nginx server open terminal
 3. Step of NGINX Server
@@ -44,4 +44,5 @@ Index.html file
 2. domaincheck.py
 3. setup crontab -e
 4. * * * * * /usr/bin/python3 /home/vboxuser/python/subdomaincheck.py
+'''
 
